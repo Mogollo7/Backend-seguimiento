@@ -18,3 +18,5 @@ process.on('uncaughtException', (err) => {
 
 app.listen(3000, () => console.log('Servidor en puerto 3000'));
 app.use('/home', require('./routes/home'));
+
+app.use('/informe', require('./routes/informe'));
