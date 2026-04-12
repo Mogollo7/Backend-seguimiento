@@ -1,7 +1,11 @@
 const mongoose = require('mongoose');
 
 const IngresoSchema = new mongoose.Schema({
-  categoria:   { type: String, required: true },
+  categoria:   {
+    type: String,
+    required: true,
+    enum: ['Pasivo', 'Activo']
+  },
   descripcion: { type: String, required: true },
   valor:       { type: Number, required: true },
   fecha:       { type: Date, default: Date.now },
