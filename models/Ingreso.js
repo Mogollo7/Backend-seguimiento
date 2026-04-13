@@ -1,7 +1,13 @@
-const mongoose = require('mongoose');
+'use strict';
 
-const IngresoSchema = new mongoose.Schema({
-  categoria:   { type: String, required: true },
+let mongoose = require('mongoose');
+
+let IngresoSchema = new mongoose.Schema({
+  categoria:   {
+    type: String,
+    required: true,
+    enum: ['Pasivo', 'Activo']
+  },
   descripcion: { type: String, required: true },
   valor:       { type: Number, required: true },
   fecha:       { type: Date, default: Date.now },

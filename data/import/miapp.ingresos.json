@@ -1,0 +1,840 @@
+[{
+  "_id": {
+    "$oid": "69dd2e17ba4a5da65e25cf2a"
+  },
+  "categoria": "Activo",
+  "descripcion": "Salario mensual",
+  "valor": 2500000,
+  "fecha": {
+    "$date": "2026-04-13T17:55:35.054Z"
+  },
+  "id_user": {
+    "$oid": "69dd2d7dba4a5da65e25cf29"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd3144ba4a5da65e25cf2b"
+  },
+  "categoria": "Activo",
+  "descripcion": "Salario semanal",
+  "valor": 2500000,
+  "fecha": {
+    "$date": "2026-04-13T18:09:08.700Z"
+  },
+  "id_user": {
+    "$oid": "69dd2d7dba4a5da65e25cf29"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd361e086c75e85d650e81"
+  },
+  "categoria": "Activo",
+  "descripcion": "Salario diario",
+  "valor": 2500000,
+  "fecha": {
+    "$date": "2026-04-13T18:29:50.926Z"
+  },
+  "id_user": {
+    "$oid": "69dd2d7dba4a5da65e25cf29"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd38602945e4c27a066c7e"
+  },
+  "categoria": "Activo",
+  "descripcion": "Salario anual",
+  "valor": 2500000,
+  "fecha": {
+    "$date": "2026-04-13T18:39:28.717Z"
+  },
+  "id_user": {
+    "$oid": "69dd2d7dba4a5da65e25cf29"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd3a58e05c02484e5e2b3a"
+  },
+  "categoria": "Activo",
+  "descripcion": "Salario mensual",
+  "valor": 25500000,
+  "fecha": {
+    "$date": "2026-04-13T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd2d7dba4a5da65e25cf29"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd3ac8e05c02484e5e2b3b"
+  },
+  "categoria": "Activo",
+  "descripcion": "Salario mensual",
+  "valor": 2500000,
+  "fecha": {
+    "$date": "2026-04-13T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd2d7dba4a5da65e25cf29"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4e7f40df6d541f607a15"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Salario mensual",
+  "valor": 2000,
+  "fecha": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4e9b40df6d541f607a16"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta de articulos",
+  "valor": 150,
+  "fecha": {
+    "$date": "2023-02-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4eac40df6d541f607a17"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Bonos",
+  "valor": 300,
+  "fecha": {
+    "$date": "2023-03-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4eb940df6d541f607a18"
+  },
+  "categoria": "Activo",
+  "descripcion": "Freelance",
+  "valor": 500,
+  "fecha": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4ecd40df6d541f607a19"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Dividendos",
+  "valor": 100,
+  "fecha": {
+    "$date": "2023-05-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4f0840df6d541f607a1a"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta online",
+  "valor": 200,
+  "fecha": {
+    "$date": "2023-06-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4f2e40df6d541f607a1b"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Pension",
+  "valor": 800,
+  "fecha": {
+    "$date": "2023-07-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4f4940df6d541f607a1c"
+  },
+  "categoria": "Activo",
+  "descripcion": "Consultoria",
+  "valor": 400,
+  "fecha": {
+    "$date": "2023-08-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4f5c40df6d541f607a1d"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Intereses",
+  "valor": 50,
+  "fecha": {
+    "$date": "2023-09-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4f7640df6d541f607a1e"
+  },
+  "categoria": "Activo",
+  "descripcion": "Proyecto",
+  "valor": 600,
+  "fecha": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd512e40df6d541f607a2e"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Sueldo",
+  "valor": 2500,
+  "fecha": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd513940df6d541f607a2f"
+  },
+  "categoria": "Activo",
+  "descripcion": "Inversion",
+  "valor": 300,
+  "fecha": {
+    "$date": "2023-02-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd514440df6d541f607a30"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Comision",
+  "valor": 200,
+  "fecha": {
+    "$date": "2023-03-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd514d40df6d541f607a31"
+  },
+  "categoria": "Activo",
+  "descripcion": "Negocio",
+  "valor": 700,
+  "fecha": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd515740df6d541f607a32"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Alquiler",
+  "valor": 400,
+  "fecha": {
+    "$date": "2023-05-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd516240df6d541f607a33"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta",
+  "valor": 250,
+  "fecha": {
+    "$date": "2023-06-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd516d40df6d541f607a34"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Prima",
+  "valor": 150,
+  "fecha": {
+    "$date": "2023-07-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd517640df6d541f607a35"
+  },
+  "categoria": "Activo",
+  "descripcion": "Servicio",
+  "valor": 350,
+  "fecha": {
+    "$date": "2023-08-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd518140df6d541f607a36"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Subsidio",
+  "valor": 100,
+  "fecha": {
+    "$date": "2023-09-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd518f40df6d541f607a37"
+  },
+  "categoria": "Activo",
+  "descripcion": "Trabajo extra",
+  "valor": 450,
+  "fecha": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd519b40df6d541f607a38"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Nomina",
+  "valor": 1800,
+  "fecha": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd52f040df6d541f607a43"
+  },
+  "categoria": "Activo",
+  "descripcion": "Renta",
+  "valor": 500,
+  "fecha": {
+    "$date": "2023-02-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd530a40df6d541f607a44"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Bono anual",
+  "valor": 600,
+  "fecha": {
+    "$date": "2023-03-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd531340df6d541f607a45"
+  },
+  "categoria": "Activo",
+  "descripcion": "Emprendimiento",
+  "valor": 800,
+  "fecha": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd531d40df6d541f607a46"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Pension alimenticia",
+  "valor": 300,
+  "fecha": {
+    "$date": "2023-05-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd532540df6d541f607a47"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta de propiedad",
+  "valor": 1000,
+  "fecha": {
+    "$date": "2023-06-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd533040df6d541f607a48"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Ayuda familiar",
+  "valor": 200,
+  "fecha": {
+    "$date": "2023-07-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd533a40df6d541f607a49"
+  },
+  "categoria": "Activo",
+  "descripcion": "Consultoria financiera",
+  "valor": 550,
+  "fecha": {
+    "$date": "2023-08-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd534340df6d541f607a4a"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Reembolso",
+  "valor": 150,
+  "fecha": {
+    "$date": "2023-09-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd534d40df6d541f607a4b"
+  },
+  "categoria": "Activo",
+  "descripcion": "Proyecto freelance",
+  "valor": 650,
+  "fecha": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd541f40df6d541f607a56"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Salario base",
+  "valor": 2200,
+  "fecha": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd542840df6d541f607a57"
+  },
+  "categoria": "Activo",
+  "descripcion": "Ingreso por alquiler",
+  "valor": 400,
+  "fecha": {
+    "$date": "2023-02-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd543040df6d541f607a58"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Comisiones",
+  "valor": 250,
+  "fecha": {
+    "$date": "2023-03-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd543940df6d541f607a59"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta de productos",
+  "valor": 350,
+  "fecha": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd544140df6d541f607a5a"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Bonos trimestrales",
+  "valor": 300,
+  "fecha": {
+    "$date": "2023-05-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd544940df6d541f607a5b"
+  },
+  "categoria": "Activo",
+  "descripcion": "Servicio de consultoria",
+  "valor": 600,
+  "fecha": {
+    "$date": "2023-06-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd545240df6d541f607a5c"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Pension",
+  "valor": 700,
+  "fecha": {
+    "$date": "2023-07-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd545c40df6d541f607a5d"
+  },
+  "categoria": "Activo",
+  "descripcion": "Freelance grafico",
+  "valor": 450,
+  "fecha": {
+    "$date": "2023-08-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd546540df6d541f607a5e"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Subvencion",
+  "valor": 180,
+  "fecha": {
+    "$date": "2023-09-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd546e40df6d541f607a5f"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta de activos",
+  "valor": 750,
+  "fecha": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd556e40df6d541f607a6a"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Sueldo mensual",
+  "valor": 1900,
+  "fecha": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd557840df6d541f607a6b"
+  },
+  "categoria": "Activo",
+  "descripcion": "Dividendos de acciones",
+  "valor": 120,
+  "fecha": {
+    "$date": "2023-02-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd558940df6d541f607a6c"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Prima de antiguedad",
+  "valor": 400,
+  "fecha": {
+    "$date": "2023-03-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd559140df6d541f607a6d"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta de servicios",
+  "valor": 500,
+  "fecha": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd559a40df6d541f607a6e"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Ayuda economica",
+  "valor": 250,
+  "fecha": {
+    "$date": "2023-05-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd55a240df6d541f607a6f"
+  },
+  "categoria": "Activo",
+  "descripcion": "Proyecto personal",
+  "valor": 300,
+  "fecha": {
+    "$date": "2023-06-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd55aa40df6d541f607a70"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Reembolso de gastos",
+  "valor": 100,
+  "fecha": {
+    "$date": "2023-07-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd55b240df6d541f607a71"
+  },
+  "categoria": "Activo",
+  "descripcion": "Consultoria tecnica",
+  "valor": 550,
+  "fecha": {
+    "$date": "2023-08-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd55bd40df6d541f607a72"
+  },
+  "categoria": "Pasivo",
+  "descripcion": "Bono de rendimiento",
+  "valor": 350,
+  "fecha": {
+    "$date": "2023-09-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd55c640df6d541f607a73"
+  },
+  "categoria": "Activo",
+  "descripcion": "Venta de inventario",
+  "valor": 400,
+  "fecha": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+}]
