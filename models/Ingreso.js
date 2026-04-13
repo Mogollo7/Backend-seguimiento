@@ -1,6 +1,8 @@
-const mongoose = require('mongoose');
+'use strict';
 
-const IngresoSchema = new mongoose.Schema({
+let mongoose = require('mongoose');
+
+let IngresoSchema = new mongoose.Schema({
   categoria:   {
     type: String,
     required: true,

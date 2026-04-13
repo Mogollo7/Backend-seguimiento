@@ -1,6 +1,8 @@
-const mongoose = require('mongoose');
+'use strict';
 
-const GastoSchema = new mongoose.Schema({
+let mongoose = require('mongoose');
+
+let GastoSchema = new mongoose.Schema({
   categoria:    {
     type: String,
     required: true,
