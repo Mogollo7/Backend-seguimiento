@@ -1,0 +1,765 @@
+[{
+  "_id": {
+    "$oid": "69dd3f9c463d22739633139c"
+  },
+  "categoria": "Compras",
+  "descripcion": "Compra hogar",
+  "valor": 50000,
+  "fecha": {
+    "$date": "2026-04-13T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd2d7dba4a5da65e25cf29"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4fb040df6d541f607a1f"
+  },
+  "categoria": "Compras",
+  "descripcion": "Compra de ropa",
+  "valor": 100,
+  "fecha": {
+    "$date": "2023-01-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4fbe40df6d541f607a20"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Compra en supermercado",
+  "valor": 50,
+  "fecha": {
+    "$date": "2023-02-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4fcc40df6d541f607a21"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Pago de celular",
+  "valor": 30,
+  "fecha": {
+    "$date": "2023-03-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4fd740df6d541f607a22"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Curso online",
+  "valor": 200,
+  "fecha": {
+    "$date": "2023-04-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4fe340df6d541f607a23"
+  },
+  "categoria": "Salud",
+  "descripcion": "Consulta medica",
+  "valor": 80,
+  "fecha": {
+    "$date": "2023-05-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4fee40df6d541f607a24"
+  },
+  "categoria": "Compras",
+  "descripcion": "Compra de zapatos",
+  "valor": 120,
+  "fecha": {
+    "$date": "2023-06-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd4ff940df6d541f607a25"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Cena en restaurante",
+  "valor": 40,
+  "fecha": {
+    "$date": "2023-07-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd500740df6d541f607a26"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Compra de accesorios",
+  "valor": 20,
+  "fecha": {
+    "$date": "2023-08-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd501040df6d541f607a27"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Libro",
+  "valor": 25,
+  "fecha": {
+    "$date": "2023-09-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd501f40df6d541f607a28"
+  },
+  "categoria": "Salud",
+  "descripcion": "Medicamentos",
+  "valor": 15,
+  "fecha": {
+    "$date": "2023-10-15T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd4df240df6d541f607a14"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd51c640df6d541f607a39"
+  },
+  "categoria": "Compras",
+  "descripcion": "Compra de electronica",
+  "valor": 300,
+  "fecha": {
+    "$date": "2023-01-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd51cf40df6d541f607a3a"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Desayuno",
+  "valor": 10,
+  "fecha": {
+    "$date": "2023-02-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd51d940df6d541f607a3b"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Pago internet",
+  "valor": 50,
+  "fecha": {
+    "$date": "2023-03-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd51e340df6d541f607a3c"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Taller",
+  "valor": 150,
+  "fecha": {
+    "$date": "2023-04-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd51eb40df6d541f607a3d"
+  },
+  "categoria": "Salud",
+  "descripcion": "Gimnasio",
+  "valor": 60,
+  "fecha": {
+    "$date": "2023-05-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd51f540df6d541f607a3e"
+  },
+  "categoria": "Compras",
+  "descripcion": "Regalo",
+  "valor": 80,
+  "fecha": {
+    "$date": "2023-06-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd51fe40df6d541f607a3f"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Almuerzo",
+  "valor": 15,
+  "fecha": {
+    "$date": "2023-07-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd520740df6d541f607a40"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Nuevo telefono",
+  "valor": 400,
+  "fecha": {
+    "$date": "2023-08-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd521140df6d541f607a41"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Certificacion",
+  "valor": 100,
+  "fecha": {
+    "$date": "2023-09-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd521d40df6d541f607a42"
+  },
+  "categoria": "Salud",
+  "descripcion": "Dentista",
+  "valor": 90,
+  "fecha": {
+    "$date": "2023-10-20T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd507140df6d541f607a2a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd536940df6d541f607a4c"
+  },
+  "categoria": "Compras",
+  "descripcion": "Muebles",
+  "valor": 500,
+  "fecha": {
+    "$date": "2023-01-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd537340df6d541f607a4d"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Compra semanal",
+  "valor": 70,
+  "fecha": {
+    "$date": "2023-02-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd537b40df6d541f607a4e"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Pago mensual",
+  "valor": 35,
+  "fecha": {
+    "$date": "2023-03-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd538340df6d541f607a4f"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Seminario",
+  "valor": 120,
+  "fecha": {
+    "$date": "2023-04-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd538d40df6d541f607a50"
+  },
+  "categoria": "Salud",
+  "descripcion": "Chequeo",
+  "valor": 50,
+  "fecha": {
+    "$date": "2023-05-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd539740df6d541f607a51"
+  },
+  "categoria": "Compras",
+  "descripcion": "Decoracion",
+  "valor": 200,
+  "fecha": {
+    "$date": "2023-06-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd53a040df6d541f607a52"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Fiesta",
+  "valor": 100,
+  "fecha": {
+    "$date": "2023-07-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd53a940df6d541f607a53"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Accesorios",
+  "valor": 25,
+  "fecha": {
+    "$date": "2023-08-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd53b240df6d541f607a54"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Materiales",
+  "valor": 30,
+  "fecha": {
+    "$date": "2023-09-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd53bd40df6d541f607a55"
+  },
+  "categoria": "Salud",
+  "descripcion": "Fisioterapia",
+  "valor": 70,
+  "fecha": {
+    "$date": "2023-10-25T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508340df6d541f607a2b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54ae40df6d541f607a60"
+  },
+  "categoria": "Compras",
+  "descripcion": "Viaje",
+  "valor": 600,
+  "fecha": {
+    "$date": "2023-01-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54b840df6d541f607a61"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Picnic",
+  "valor": 20,
+  "fecha": {
+    "$date": "2023-02-28T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54c140df6d541f607a62"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Plan familiar",
+  "valor": 80,
+  "fecha": {
+    "$date": "2023-03-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54cb40df6d541f607a63"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Idioma",
+  "valor": 180,
+  "fecha": {
+    "$date": "2023-04-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54d540df6d541f607a64"
+  },
+  "categoria": "Salud",
+  "descripcion": "Vacuna",
+  "valor": 40,
+  "fecha": {
+    "$date": "2023-05-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54de40df6d541f607a65"
+  },
+  "categoria": "Compras",
+  "descripcion": "Hogar",
+  "valor": 250,
+  "fecha": {
+    "$date": "2023-06-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54ec40df6d541f607a66"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Catering",
+  "valor": 150,
+  "fecha": {
+    "$date": "2023-07-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd54f640df6d541f607a67"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Upgrade",
+  "valor": 100,
+  "fecha": {
+    "$date": "2023-08-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd550040df6d541f607a68"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Conferencia",
+  "valor": 75,
+  "fecha": {
+    "$date": "2023-09-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd550a40df6d541f607a69"
+  },
+  "categoria": "Salud",
+  "descripcion": "Terapia",
+  "valor": 55,
+  "fecha": {
+    "$date": "2023-10-30T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd508c40df6d541f607a2c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd564840df6d541f607a74"
+  },
+  "categoria": "Compras",
+  "descripcion": "Tecnologia",
+  "valor": 350,
+  "fecha": {
+    "$date": "2023-01-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd565340df6d541f607a75"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Delivery",
+  "valor": 25,
+  "fecha": {
+    "$date": "2023-02-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd565b40df6d541f607a76"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Roaming",
+  "valor": 15,
+  "fecha": {
+    "$date": "2023-03-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd566440df6d541f607a77"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Webinar",
+  "valor": 50,
+  "fecha": {
+    "$date": "2023-04-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd566d40df6d541f607a78"
+  },
+  "categoria": "Salud",
+  "descripcion": "Optica",
+  "valor": 120,
+  "fecha": {
+    "$date": "2023-05-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd567640df6d541f607a79"
+  },
+  "categoria": "Compras",
+  "descripcion": "Juguetes",
+  "valor": 80,
+  "fecha": {
+    "$date": "2023-06-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd568040df6d541f607a7a"
+  },
+  "categoria": "Alimentos",
+  "descripcion": "Cafeteria",
+  "valor": 12,
+  "fecha": {
+    "$date": "2023-07-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd568a40df6d541f607a7b"
+  },
+  "categoria": "Telefono",
+  "descripcion": "Apps",
+  "valor": 10,
+  "fecha": {
+    "$date": "2023-08-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd569440df6d541f607a7c"
+  },
+  "categoria": "Educacion",
+  "descripcion": "Podcast",
+  "valor": 5,
+  "fecha": {
+    "$date": "2023-09-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dd569e40df6d541f607a7d"
+  },
+  "categoria": "Salud",
+  "descripcion": "Suplementos",
+  "valor": 30,
+  "fecha": {
+    "$date": "2023-10-10T00:00:00.000Z"
+  },
+  "id_user": {
+    "$oid": "69dd509540df6d541f607a2d"
+  },
+  "__v": 0
+}]
