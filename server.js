@@ -20,4 +20,9 @@ process.on('uncaughtException', (err) => {
   console.log('Error no manejado:', err);
 });
 
+
 app.listen(3000, () => console.log('Servidor en puerto 3000'));
+app.use('/home', require('./routes/home'));
+
+app.use('/informe', require('./routes/informe'));
+
