@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Seguimiento-Desarrollo-Web
 
@@ -8,8 +8,6 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white)
-
-![diagram](img/diagram.png)
 
 </div>
 
@@ -23,6 +21,7 @@
    - [**Endpoints disponibles**](#endpoints-disponibles)
      - [**Auth**](#auth)
      - [**Home**](#home)
+     - [**Informe**](#informe)
      - [**Profile**](#profile)
    - [**Importar datos de prueba**](#importar-datos-de-prueba)
 5. [**Arquitectura**](#arquitectura)
@@ -203,10 +202,11 @@ Content-Type: application/json
 
 | Acción                | Método | Endpoint                                 | Descripción                            |
 | ---------------------- | ------- | ---------------------------------------- | --------------------------------------- |
-| Informe mensual        | `GET` | `/home/informe/mes/:month?year=YYYY`   | Informe de ingresos y gastos por mes    |
-| Informe semanal        | `GET` | `/home/informe/semana/:week?year=YYYY` | Informe de ingresos y gastos por semana |
-| Informe anual          | `GET` | `/home/informe/anio/:year`             | Informe de ingresos y gastos por año   |
-| Informe por categoría | `GET` | `/home/informe/categoria`              | Totales agrupados por categoría        |
+| Informe mensual        | `GET` | `/informe/mes/:mes`                    | Informe de ingresos y gastos por mes    |
+| Informe semanal        | `GET` | `/informe/semana/:semana`              | Informe de ingresos y gastos por semana |
+| Informe anual          | `GET` | `/informe/anio/:anio`                  | Informe de ingresos y gastos por año   |
+| Informe por categoría | `GET` | `/informe/InformeCategoria/:tipo`      | Totales agrupados por categoría (Ingreso o Gasto) |
+| Patrimonio             | `GET` | `/informe/PatrimonioList`              | Lista de ingresos y total de ingresos |
 
 #### Profile
 
@@ -228,15 +228,16 @@ Los archivos de ejemplo están en `data/import/`. No hay importación automátic
 La estructura del proyecto actual es:
 
 ```
-Parcial-Desarrollo-Web/
+Backend-seguimiento/
 ├── .env                         # Variables de entorno
 ├── README.md                    # Documentación del proyecto
 ├── package.json                 # Dependencias y scripts
 ├── server.js                    # Archivo principal que inicia el servidor
 ├── data/
 │   └── import/
-│       ├── gastos.txt           # Gastos de ejemplo
-│       ├── ingresos.txt         # Ingresos de ejemplo
+│       ├── miapp.gastos.json    # Gastos de ejemplo (JSON)
+│       ├── miapp.ingresos.json  # Ingresos de ejemplo (JSON)
+│       ├── miapp.users.json     # Usuarios de ejemplo (JSON)
 │       └── users.txt            # Credenciales de prueba
 ├── middleware/
 │   └── auth.js                  # Middleware de autenticación JWT
@@ -246,7 +247,8 @@ Parcial-Desarrollo-Web/
 │   └── User.js                  # Esquema de usuarios
 └── routes/
     ├── auth.js                  # Rutas de autenticación
-    ├── home.js                  # Rutas de ingreso/gasto e informes
+    ├── home.js                  # Rutas de ingreso/gasto
+    ├── informe.js               # Rutas de informes y estadísticas
     └── profile.js               # Ruta de perfil de usuario
 ```
 

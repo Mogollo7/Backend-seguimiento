@@ -3,6 +3,7 @@ const router = express.Router();
 const auth = require('../middleware/auth');
 const Ingreso = require('../models/Ingreso');
 const Gasto = require('../models/Gasto');
+const mongoose = require('mongoose');
 
 // GET /informe/mes/:mes
 router.get('/mes/:mes', auth, async (req, res) => {
@@ -89,7 +90,7 @@ router.get('/InformeCategoria/:tipo', auth, async (req, res) => {
     const Modelo = tipo === 'Ingreso' ? Ingreso : Gasto;
 
     const resultado = await Modelo.aggregate([
-      { $match: { id_user: req.user.id } },
+      { $match: { id_user: new mongoose.Types.ObjectId(req.user.id) } },
       { $group: { _id: '$categoria', valor: { $sum: '$valor' } } },
       { $project: { categoria: '$_id', valor: 1, _id: 0 } }
     ]);
